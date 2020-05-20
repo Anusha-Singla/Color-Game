@@ -1,0 +1,82 @@
+body{
+	background-color: #232323;
+	margin : 0;
+	font-family: courier;
+}
+.square{
+	width:30%;
+	background-color :purple;
+	padding-bottom: 30%;
+	float:left;
+	margin:1.66%;
+	border-radius: 50%;
+	transition: background-color 0.8s;
+	--webkit-transiton:background-color 0.8s;    /*safari*/ 
+	--moz-transiton:background-color 0.8s;       /*firefox*/
+}
+#container{
+	max-width: 600px;
+	margin:20px auto;
+}
+h1{
+	color:white; 
+	line-height: 1.1;
+	font-weight: normal;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+#messageDisplay{
+	display:inline-block;
+	width:20%;
+}
+
+#stripe{
+	background-color: white;
+	height:30px;
+	text-align: center;
+	color:black;
+
+}
+
+.selected{
+	color:white ;
+	background-color: steelblue;
+}
+
+button{
+	background-color: none;
+	font-family: courier;
+	border:none;
+	text-transform: uppercase;
+	height : 100%;
+	font-weight: 700;
+	color:steelblue;
+	letter-spacing: 2px;
+	font-size: inherit;
+	transition: all 0.8s;
+	--webkit-transiton:all 0.8s;         /*safari*/ 
+	--moz-transiton:all 0.8s;           /*firefox*/
+    outline: none;
+}
+
+button:hover{
+	color:white;
+	background-color: steelblue;
+}
+#R{
+	color:red;
+}
+#G{
+	color:green;
+}
+#B{
+	color:blue;
+}
